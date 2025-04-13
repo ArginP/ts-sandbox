@@ -1,0 +1,11 @@
+body {
+    background: #232323;
+}
+
+#app::after {
+    content: "F12 to access DevTools";
+    color: #d3d3d3;
+    display: block;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
